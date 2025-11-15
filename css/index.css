@@ -1,0 +1,28 @@
+.containerdiv {
+    display: block;
+    margin-top: 45px;
+    width: 100%;
+    justify-content: space-between; 
+    align-items: center;
+  }
+
+
+
+  video.fillWidth {
+    width: 100%;
+    height: auto;
+  }
+
+  
+
+  
+  @media screen and (min-width: 600px) {
+    .containerdiv {
+        display: inline-flex;
+        margin-top: 45px;
+        width: 100%;
+        justify-content: space-between; 
+        align-items: center;
+      }
+      
+  }
